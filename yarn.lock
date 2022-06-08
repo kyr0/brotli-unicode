@@ -801,10 +801,10 @@ braces@^3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-brotli-compress@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/brotli-compress/-/brotli-compress-1.3.0.tgz#3afbc406afd23d1d35ce11098c65e0397476ca88"
-  integrity sha512-i1DAi3aAWiM3RF4gazKeT9Db0ryp7mFqV50Wxyp/Avs6mQa0No+OFtaJtnHxID9LdY8F92nHNoQJifiSgXc6rg==
+brotli-compress@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/brotli-compress/-/brotli-compress-1.3.1.tgz#84334232c9f24ae7817b80f606e75ce711334f59"
+  integrity sha512-Q0C80Jg7AGtvKSuu+2OofkbybEranBZK2qS17otvtrE9f3JUfo7ld/9PDtuCFtd4DqNjh8Yls0CAEKI4viLehg==
   dependencies:
     "@types/node" "^17.0.40"
     brotli-wasm "1.2.0"
