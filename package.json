@@ -1,6 +1,6 @@
 {
   "name": "brotli-unicode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "typings": "dist/index.d.ts",
   "description": "Brotli compression/decompression that encodes to base-unicode and back. Node.js and Browser support.",
