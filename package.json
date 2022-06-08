@@ -1,0 +1,53 @@
+{
+  "name": "brotli-unicode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "typings": "dist/index.d.ts",
+  "description": "Brotli compression/decompression that encodes to base-unicode and back. Node.js and Browser support.",
+  "keywords": [
+    "brotli",
+    "unicode",
+    "compression",
+    "encode",
+    "decode",
+    "string",
+    "binary",
+    "typescript",
+    "browser",
+    "Node.js",
+    "UTF16",
+    "UCS-2",
+    "URI",
+    "URL-safe",
+    "copy-pastable"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "ts-node build.ts",
+    "postbuild": "tsc",
+    "deploy": "npm publish",
+    "pretest": "yarn build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyr0/brotli-unicode.git"
+  },
+  "author": "Aron Homberg <info@aron-homberg.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyr0/brotli-unicode/issues"
+  },
+  "homepage": "https://github.com/kyr0/brotli-unicode#readme",
+  "dependencies": {
+    "base-unicode": "^1.0.0",
+    "brotli-compress": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "esbuild": "^0.14.3",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
